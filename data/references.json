@@ -1,0 +1,26 @@
+{
+  "01_noc": {
+    "summary": "Les réseaux sur puce remplacent les bus partagés en transportant les transactions en paquets via des routeurs, ce qui permet des communications parallèles. Le choix de topologie (maillage, anneau, crossbar) arbitre entre latence, surface et consommation. La qualité de service, avec priorités et canaux virtuels, protège les flux temps réel, et la configuration est générée puis vérifiée automatiquement.",
+    "key_facts": [["bus", "goulot"], ["paquets", "routeurs"], ["maillage", "mesh"], ["anneau"], ["crossbar"], ["qualité de service", "priorités", "canaux virtuels"], ["générée", "automatiquement", "outils"]]
+  },
+  "02_axi": {
+    "summary": "AXI, protocole AMBA d'Arm, relie processeurs, mémoires et périphériques via cinq canaux indépendants pour l'écriture et la lecture. Chaque transfert repose sur la poignée de main VALID/READY. Il gère les rafales jusqu'à 256 données et des transactions multiples avec identifiants, autorisant des réponses dans le désordre ; AXI-Lite et AXI-Stream en sont des variantes.",
+    "key_facts": [["arm", "amba"], ["cinq canaux"], ["valid", "ready"], ["rafale"], ["256"], ["identifiant"], ["désordre"], ["axi-lite", "axi-stream"]]
+  },
+  "03_ospf": {
+    "summary": "OSPF est un protocole de routage interne à état de liens : les routeurs diffusent des LSA, construisent une base topologique commune et calculent les meilleurs chemins avec Dijkstra. Le réseau est découpé en zones reliées par la zone 0, les ABR résumant les routes. Sur Ethernet, un DR et un BDR sont élus ; la convergence est rapide.",
+    "key_facts": [["état de liens"], ["lsa"], ["dijkstra"], ["zone 0", "backbone"], ["abr"], ["dr", "routeur désigné"], ["coût", "bande passante"], ["convergence"]]
+  },
+  "04_ci": {
+    "summary": "L'intégration continue vérifie automatiquement chaque modification sur un serveur comme GitHub Actions, GitLab CI ou Jenkins, un échec bloquant la fusion. La chaîne enchaîne analyse statique, tests unitaires, d'intégration puis de bout en bout. Les tests instables, souvent dus aux attentes fixes, se corrigent par des attentes sur condition et l'isolation des tests.",
+    "key_facts": [["automatiquement"], ["github actions", "gitlab", "jenkins"], ["bloque", "fusion"], ["unitaires"], ["bout en bout"], ["instables"], ["attentes", "condition"], ["régression"]]
+  },
+  "05_mqtt": {
+    "summary": "MQTT est un protocole léger de publication-abonnement pour objets connectés : les clients échangent via un broker en publiant sur des sujets hiérarchiques. Trois niveaux de qualité de service vont de « au plus une fois » à « exactement une fois ». Les options retain et dernière volonté complètent le protocole, qui fonctionne sur TCP, port 1883 ou 8883 avec TLS.",
+    "key_facts": [["publication", "abonnement"], ["broker"], ["sujet"], ["qualité de service", "qos"], ["exactement une fois"], ["retain"], ["dernière volonté"], ["1883", "8883", "tls"]]
+  },
+  "06_rag": {
+    "summary": "Le RAG associe un modèle de langage à une base de connaissances : les documents sont découpés en fragments, convertis en embeddings et indexés, puis les passages proches de la question sont injectés dans le prompt. Cela limite les hallucinations et facilite la mise à jour, mais la qualité dépend de la récupération, qu'il faut évaluer séparément de la fidélité.",
+    "key_facts": [["base de connaissances", "documents"], ["fragments"], ["embeddings", "vecteurs"], ["prompt"], ["hallucinations"], ["mise à jour", "réentraîner"], ["récupération"], ["fidélité"]]
+  }
+}

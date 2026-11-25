@@ -1,0 +1,514 @@
+{
+ "cceb4168b2e06f041c1a": {
+  "text": "Les réseaux sur puce remplacent les bus partagés, offrant des communications en parallèle grâce à des topologies adaptées, des mécanismes de qualité de service et une configuration automatique.",
+  "seconds": 50.336
+ },
+ "a995e44f7c94cff3c3be": {
+  "text": "Les réseaux sur puce (NoC) remplacent les bus partagés dans les systèmes sur puce complexes, offrant une communication en parallèle. Les topologies comme le maillage, l'anneau et le crossbar sont choisies en fonction des besoins. Les NoC proposent des mécanismes de qualité de service, des priorités et des canaux virtuels. La configuration est généralement générée automatiquement et vérifiée avant la production physique, réduisant ainsi le temps de conception.",
+  "seconds": 60.485
+ },
+ "f466223d290edb549c3f": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux, basé sur VALID et READY, permettant pipeline et transferts en rafale, avec variante AXI-Lite pour accès de configuration et AXI-Stream pour flux de données sans adresse.",
+  "seconds": 55.727
+ },
+ "f1c7cee80bceaf411b2e": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux, basé sur VALID et READY, avec pipeline et transferts en rafale, variante AXI-Lite pour accès de configuration, AXI-Stream pour flux de données sans adresse.",
+  "seconds": 41.93
+ },
+ "36171ae497104827f210": {
+  "text": "AXI est un protocole Arm pour connecter processeurs, mémoires et périphériques, séparant échanges en cinq canaux avec VALID et READY pour insérer des registres, supportant transferts en rafale et transactions multiples, AXI-Lite pour accès de configuration, AXI-Stream pour flux de données sans adresse, AHB pour sous-systèmes simples.",
+  "seconds": 60.242
+ },
+ "2db2af75405c86c21853": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux avec VALID et READY pour insérer des registres, supportant transferts en rafale et transactions multiples, AXI-Lite pour accès de configuration, AXI-Stream pour flux de données sans adresse, AHB pour sous-systèmes simples.",
+  "seconds": 40.069
+ },
+ "1eb5db37bfff080c5d76": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux avec VALID et READY pour insérer des registres, supportant transferts en rafale et transactions multiples, AXI-Lite pour accès de configuration, AXI-Stream pour flux de données sans adresse, AHB pour sous-systèmes simples.",
+  "seconds": 36.464
+ },
+ "bcdf304124cb7ac16e34": {
+  "text": "OSPF est un protocole de routage interne état de liens standardisé, organisant réseaux en zones pour limiter bases de données et recalculs, avec DR et BDR pour réseaux multi-accès, calcul de coût basé sur bande passante, convergence rapide et prise en charge IPv6.",
+  "seconds": 54.951
+ },
+ "164b8894799e571dc359": {
+  "text": "OSPF est un protocole de routage état de liens standardisé, organisant réseaux en zones pour limiter bases de données et recalculs, avec DR et BDR pour réseaux multi-accès, calcul de coût basé sur bande passante, convergence rapide et prise en charge IPv6.",
+  "seconds": 37.637
+ },
+ "690bd9cfe3f5b00aee8f": {
+  "text": "OSPF est un protocole état de liens routage standardisé, organisant réseaux en zones pour limiter bases de données et recalculs, avec DR et BDR pour réseaux multi-accès, calcul de coût basé sur bande passante, convergence rapide et prise en charge IPv6.",
+  "seconds": 35.447
+ },
+ "9a13c932bfc9c05d65ea": {
+  "text": "OSPF est un protocole de routage interne état de liens standardisé, utilisant LSA pour diffuser la topologie aux routeurs de la même zone. Il réduit la taille des bases de données et les recalculs par organisation en zones, avec une zone de backbone interconnectant toutes les autres. Les ABR résument les routes vers d'autres zones. Sur des réseaux multi-accès, OSPF élit un DR et un BDR pour minimiser les adjacences. Le coût est basé sur la bande passante. OSPF converge rapidement et gère l'authentification et IPv6.",
+  "seconds": 75.586
+ },
+ "aa8f946e7085d11b81ee": {
+  "text": "OSPF est un protocole de routage état de liens standardisé, utilisant LSA pour diffuser la topologie aux routeurs de la même zone. Il réduit la taille des bases de données et les recalculs par organisation en zones, avec une zone de backbone interconnectant toutes les autres. Les ABR résument les routes vers d'autres zones. Sur des réseaux multi-accès, OSPF élit un DR et un BDR pour minimiser les adjacences. Le coût est basé sur la bande passante. OSPF converge rapidement et gère l'authentification et IPv6.",
+  "seconds": 63.352
+ },
+ "a3f5b713c0a1cb71b327": {
+  "text": "OSPF est un protocole de routage état de liens standardisé, diffusant la topologie via LSA. Il réduit la taille des bases de données et les recalculs par organisation en zones, avec une zone de backbone interconnectant toutes les autres. Les ABR résument les routes vers d'autres zones. Sur des réseaux multi-accès, OSPF élit un DR et un BDR pour minimiser les adjacences. Le coût est basé sur la bande passante. OSPF converge rapidement et gère l'authentification et IPv6.",
+  "seconds": 59.733
+ },
+ "bd3cba3c9307a5a64dda": {
+  "text": "L'intégration continue automatique vérifie rapidement et précisément les changements, évitant les régressions grâce à une chaîne de tests progressifs et à la gestion des tests instables.",
+  "seconds": 47.831
+ },
+ "a420f4708fbbb7acc721": {
+  "text": "L'intégration continue consiste à intégrer fréquemment les changements dans une branche commune, avec vérifications rapides (analyse statique, tests unitaires) pour détecter les erreurs rapidement, avant l'exécution complète des tests. Les tests instables sont corrigés en isolant les tests et en simulant les services externes. La chaîne de régression nocturne surveille les performances, détectant les dégradations.",
+  "seconds": 65.427
+ },
+ "d8c598d8c8a46b9a9d67": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur le modèle publication-abonnement via un broker, avec qualité de service définie, sujets hiérarchiques, option retain et mécanisme de dernière volonté, fonctionnant sur TCP/1883 ou TLS/8883.",
+  "seconds": 55.212
+ },
+ "26bd30f3992cee126a81": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés basé sur le modèle publication-abonnement via broker, avec qualité de service, sujets hiérarchiques, option retain et mécanisme de dernière volonté, fonctionnant sur TCP/1883 ou TLS/8883.",
+  "seconds": 38.658
+ },
+ "335223ec5bd71c55993f": {
+  "text": "MQTT est un protocole de messagerie basé sur le modèle publication-abonnement via broker, avec qualité de service, sujets hiérarchiques, option retain et mécanisme de dernière volonté, fonctionnant sur TCP/1883 ou TLS/8883.",
+  "seconds": 34.754
+ },
+ "7b00b82322c97cd234ec": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur le modèle publication-abonnement, utilisant un broker central comme Mosquitto ou HiveMQ. Les sujets hiérarchiques permettent des messages aux clients abonnés, avec trois niveaux de qualité de service. Le broker conserve le dernier message via l'option retain et gère les défaillances avec le mécanisme de dernière volonté. Le protocole fonctionne sur TCP au port 1883 ou 8883 avec TLS.",
+  "seconds": 69.911
+ },
+ "3651d057ea0bd31a5950": {
+  "text": "La génération augmentée par récupération combine un modèle de langage avec des connaissances externes, recherchant et intégrant des passages pertinents dans les prompts pour améliorer la précision et la fiabilité des réponses.",
+  "seconds": 48.732
+ },
+ "b6733a195f3900004db7": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec des connaissances externes, recherchant d'abord les passages pertinents dans des documents pour enrichir le prompt. Les documents sont découpés et vectorisés, puis utilisés pour répondre aux questions, souvent combinant recherche sémantique et par mots-clés. Cela réduit les hallucinations, permet d'actualiser les connaissances sans réentraîner le modèle, et facilite la citation. Cependant, la qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée de la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 87.063
+ },
+ "3db4317b57b26d3c6a0a": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec des connaissances externes, recherchant d'abord les passages pertinents dans des documents pour enrichir le prompt. Les documents sont découpés et vectorisés, puis utilisés pour répondre aux questions, souvent combinant recherche sémantique et par mots-clés. Cela réduit les hallucinations, permet d'actualiser les connaissances sans réentraîner le modèle, et facilite la citation. Cependant, la qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée de la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 83.512
+ },
+ "ba4d46bca85a56e193cb": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec des connaissances externes, recherchant d'abord les passages pertinents dans des documents pour enrichir le prompt. Les documents sont découpés et vectorisés, puis utilisés pour répondre aux questions, souvent combinant recherche sémantique et par mots-clés. Cela réduit les hallucinations, permet d'actualiser les connaissances sans réentraîner le modèle, et facilite la citation. Cependant, la qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée de la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 55.971
+ },
+ "b3a4b5c1d41a19bf7cc2": {
+  "text": "Les réseaux sur puce (NoC) remplaçant les bus partagés, ils offrent une communication en parallèle grâce à des routeurs et des paquets, avec choix de topologie adaptée, interfaces réseau convertissant protocoles, gestion de la qualité de service et configuration automatique et vérification.",
+  "seconds": 80.659
+ },
+ "ff3d2fc17acf26fc0626": {
+  "text": "Réseaux sur puce (NoC) remplaçant bus partagés, communication en parallèle via routeurs, choix topologie adaptée, interfaces convertissant protocoles, gestion qualité de service, configuration automatique et vérification.",
+  "seconds": 34.677
+ },
+ "127290ea908dea3fad79": {
+  "text": "Les réseaux sur puce (NoC) remplacent les bus partagés dans les systèmes complexes, offrant une communication en parallèle. Les topologies comme le maillage, l'anneau et le crossbar sont choisies en fonction des besoins. Les NoC proposent des mécanismes de qualité de service, des priorités et des canaux virtuels. Ils sont configurés automatiquement et vérifiés avant la production, réduisant ainsi le temps de conception.",
+  "seconds": 73.903
+ },
+ "a419d460f63a4ad69e96": {
+  "text": "AXI est un protocole Arm pour connecter processeurs et périphériques, séparant échanges en cinq canaux avec VALID/READY, supportant transferts en rafale et transactions multiples, et variante AXI-Lite pour accès de configuration.",
+  "seconds": 54.904
+ },
+ "6156fae865bb9924de67": {
+  "text": "AXI est un protocole Arm pour connecter processeurs, mémoires et périphériques, séparant échanges en cinq canaux indépendants avec validation et réponse. Il permet des transferts en rafale et transactions multiples, avec réponses désordonnées pour optimiser la mémoire. AXI-Lite est simplifié pour accès de configuration, et AXI-Stream transporte flux de données sans adresse. AHB, plus ancien, reste utilisé pour sous-systèmes peu exigeants.",
+  "seconds": 70.959
+ },
+ "60026d746d9e02f1ec64": {
+  "text": "OSPF est un protocole de routage interne état de liens standardisé, divisant le réseau en zones pour réduire les bases de données et les recalculs, avec DR et BDR pour réduire adjacences, calcul coût bande passante, et supporte l'authentification et IPv6.",
+  "seconds": 58.447
+ },
+ "a6fcabdbbd8b6b26f52d": {
+  "text": "OSPF est un protocole de routage interne état de liens standardisé, divisant le réseau en zones pour réduire bases de données et recalculs, avec DR et BDR pour réduire adjacences, calcul coût bande passante, et supporte l'authentification et IPv6.",
+  "seconds": 39.487
+ },
+ "b14715ae240b54bb462a": {
+  "text": "OSPF est un protocole de routage état de liens standardisé, divisant le réseau en zones pour réduire bases de données et recalculs, avec DR et BDR pour réduire adjacences, calcul coût bande passante, et supporte l'authentification et IPv6.",
+  "seconds": 37.392
+ },
+ "2cfdd05967176c0eb0a6": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, qui utilise LSA pour diffuser des annonces de liens et des coûts. Les routeurs organisent le réseau en zones, avec la zone 0 comme backbone. Les ABR résument les routes vers les autres zones. OSPF élit un DR et un BDR pour Ethernet. Le coût est basé sur la bande passante. La convergence est rapide, et OSPF gère l'authentification et IPv6.",
+  "seconds": 72.16
+ },
+ "1eb23166237522a2f702": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, qui utilise LSA pour diffuser des annonces de liens et des coûts. Les routeurs organisent le réseau en zones, avec la zone 0 comme backbone. Les ABR résument les routes vers les autres zones. OSPF élit un DR et un BDR pour Ethernet. Le coût est basé sur la bande passante. La convergence est rapide, et OSPF gère l'authentification et IPv6.",
+  "seconds": 59.607
+ },
+ "d57020adfadb2e666859": {
+  "text": "OSPF est un protocole de routage interne état de liens standardisé par l'IETF, utilisant LSA pour diffuser annonces de liens et coûts. Les routeurs organisent le réseau en zones, avec la zone 0 comme backbone. Les ABR résument routes vers autres zones. OSPF élit DR et BDR pour Ethernet. Le coût est basé sur la bande passante. La convergence est rapide, et OSPF gère l'authentification et IPv6.",
+  "seconds": 36.815
+ },
+ "2b49492220aae105bbcd": {
+  "text": "L'intégration continue fréquente intégre les changements dans une branche commune, vérifiant automatiquement chaque code via des tests unitaires, d'intégration et de bout en bout, avec une chaîne efficace organisée en étapes, surveillant les tests instables pour les corriger.",
+  "seconds": 56.415
+ },
+ "819b49eb599271d66d1b": {
+  "text": "L'intégration continue fréquente intégre les changements dans une branche commune, via tests unitaires, d'intégration et de bout en bout, surveillant et corrigeant les tests instables.",
+  "seconds": 33.286
+ },
+ "316600ba42197808af14": {
+  "text": "L'intégration continue fréquente intégre les changements dans une branche commune, via tests unitaires, d'intégration et de bout en bout, surveillant et corrigeant les tests instables.",
+  "seconds": 29.197
+ },
+ "1584e60cbc09cc9201be": {
+  "text": "L'intégration continue consiste à intégrer fréquemment les changements dans une branche commune, vérifiant automatiquement chaque code. Les tests couvrent analyse statique, unitaires rapides, d'intégration et de bout en bout, avec les rapports de couverture et les artefacts pour faciliter le diagnostic. Les tests instables sont corrigés en isolant les tests et en simulant les dépendances externes. La chaîne de régression nocturne détecte les dégradations de performance en comparant les résultats.",
+  "seconds": 73.854
+ },
+ "064d1d303c4b8ae00089": {
+  "text": "L'intégration continue consiste à intégrer fréquemment les changements dans une branche commune, vérifiant automatiquement chaque code. Les tests couvrent analyse statique, unitaires rapides, d'intégration et de bout en bout, avec rapports de couverture et artefacts pour faciliter le diagnostic. Les tests instables sont corrigés en isolant les tests et en simulant dépendances externes. La chaîne de régression nocturne détecte dégradations de performance.",
+  "seconds": 58.82
+ },
+ "8af31720287ffb9c04a5": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur publication-abonnement via un broker central, avec trois niveaux de qualité de service, gestion des sujets hiérarchiques, option retain pour dernier message, et mécanisme de dernière volonté pour déconnexion brusque, fonctionnant sur TCP/1883 ou TLS/8883.",
+  "seconds": 59.944
+ },
+ "ca8b287c26d20cde872a": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés basé sur publication-abonnement via broker central, avec trois niveaux de qualité de service, gestion des sujets hiérarchiques, option retain pour dernier message, et mécanisme de dernière volonté pour déconnexion brusque, fonctionnant sur TCP/1883 ou TLS/8883.",
+  "seconds": 50.772
+ },
+ "1a01753c1d7fc21ba3e9": {
+  "text": "MQTT est un protocole de messagerie basé sur publication-abonnement via broker central, avec trois niveaux de qualité de service, gestion des sujets hiérarchiques, option retain pour dernier message, et mécanisme de dernière volonté pour déconnexion brusque, fonctionnant sur TCP/1883 ou TLS/8883.",
+  "seconds": 42.423
+ },
+ "24ea68bc0f9b1e5de024": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur le modèle publication-abonnement via un broker central. Les sujets hiérarchiques permettent des abonnements flexibles. MQTT définit trois niveaux de qualité de service, avec des options comme le retain pour conserver les données et une gestion des déconnections. Le protocole fonctionne sur TCP au port 1883 ou 8883 sécurisé, avec des mécanismes de gestion des abonnements et déconnections.",
+  "seconds": 66.371
+ },
+ "3ab67fe2ae4f238abc2d": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant et intégrant des passages pertinents dans les prompts pour améliorer les réponses, souvent combinant recherche sémantique et par mots-clés. Sa qualité dépend de la pertinence des passages récupérés, nécessitant évaluation séparée de la fidélité des réponses et de leur source. Les principaux réglages concernent la taille des fragments et le nombre de passages injectés.",
+  "seconds": 66.25
+ },
+ "2ee55d0e5d522888ba8b": {
+  "text": "RAG combine un modèle de langage avec une base de connaissances, recherchant et intégrant passages pertinents dans les prompts pour améliorer les réponses, souvent combinant recherche sémantique et par mots-clés. Sa qualité dépend de la pertinence des passages récupérés, nécessitant évaluation séparée de la fidélité des réponses et de leur source. Les principaux réglages concernent la taille des fragments et le nombre de passages injectés.",
+  "seconds": 52.007
+ },
+ "4d30b592292965f9363a": {
+  "text": "RAG combine un modèle de langage avec une base de connaissances, recherchant et intégrant passages pertinents dans les prompts pour améliorer les réponses, souvent combinant recherche sémantique et par mots-clés. Sa qualité dépend de la pertinence des passages récupérés, nécessitant évaluation séparée de la fidélité des réponses et de leur source. Les principaux réglages portent sur la taille des fragments et le nombre de passages injectés.",
+  "seconds": 50.028
+ },
+ "ed93106ac584fcaaf886": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe en recherchant des passages pertinents dans des documents, les intégrant dans le prompt pour améliorer les réponses. Les documents sont découpés et vectorisés pour une recherche sémantique. Le RAG réduit les hallucinations et facilite la citation des sources, mais sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée de la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 75.624
+ },
+ "41a818d8208e270600b2": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe en recherchant des passages pertinents dans des documents, les intégrant dans le prompt pour améliorer les réponses. Les documents sont découpés et vectorisés pour une recherche sémantique. Le RAG réduit les hallucinations et facilite la citation des sources, mais sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée de la fiabilité des réponses. Les principaux réglages portent sur la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 68.809
+ },
+ "70e16aa00599751041de": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe en recherchant des passages pertinents dans des documents, les intégrant dans le prompt pour améliorer les réponses. Les documents sont découpés et vectorisés pour une recherche sémantique. Le RAG réduit les hallucinations et facilite la citation des sources, mais sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée de la fiabilité des réponses. Les principaux réglages portent sur la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 66.412
+ },
+ "cef0ce6226b926f1104c": {
+  "text": "Les réseaux sur puce (NoC) remplacent les bus partagés dans les systèmes complexes, offrant une communication en parallèle et des mécanismes de qualité de service pour les flux vidéo, avec topologies adaptées aux besoins, des interfaces réseau convertissant les protocoles et une configuration automatique et vérifiée.",
+  "seconds": 77.695
+ },
+ "d145041a8c4be84ea436": {
+  "text": "Les réseaux sur puce (NoC) remplaçant les bus, offrent communication en parallèle, qualité de service, topologies adaptées, conversions de protocoles et configuration automatique.",
+  "seconds": 29.674
+ },
+ "3c24f560e0bce6cd42c5": {
+  "text": "NoC remplacent les bus, offrant communication en parallèle, topologies adaptées, conversions de protocoles et configuration automatique.",
+  "seconds": 21.104
+ },
+ "f8db64a62542d510bdd6": {
+  "text": "Les réseaux sur puce (NoC) remplaçant les bus partagés dans les systèmes sur puce complexes offrent une communication en parallèle grâce à des routeurs et des liens. Les topologies comme le maillage, l'anneau et le crossbar sont choisies en fonction des besoins. Les NoC modernes incluent des mécanismes de qualité de service comme les priorités et les canaux virtuels, et sont configurés automatiquement avec simulation pour réduire le temps de conception.",
+  "seconds": 68.677
+ },
+ "113cde52ee4f5ef0afd4": {
+  "text": "Les réseaux sur puce (NoC) remplaçant les bus partagés offrent communication en parallèle via routeurs et liens. Topologies comme le maillage, l'anneau et le crossbar sont choisies selon les besoins. Modernes, ils incluent priorités, canaux virtuels et régulation du débit. Configurés automatiquement avec simulation, réduisent temps de conception.",
+  "seconds": 46.744
+ },
+ "303aedb52f686fb176fe": {
+  "text": "Les réseaux sur puce (NoC) remplaçant les bus partagés offrent communication en parallèle via routeurs et liens. Topologies comme le maillage, l'anneau et le crossbar sont choisies selon les besoins. Modernes, ils incluent priorités, canaux virtuels et régulation du débit. Configurés automatiquement avec simulation, réduisent temps de conception.",
+  "seconds": 43.925
+ },
+ "8a75b373451146c382fe": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux indépendants, basé sur VALID/READY, permettant pipeline sans modification du comportement fonctionnel, avec transferts en rafale et transactions multiples, supportant AHB pour sous-systèmes simples.",
+  "seconds": 50.546
+ },
+ "31a1560627007d5a711d": {
+  "text": "AXI est un protocole Arm pour connecter processeurs, mémoires et périphériques, séparant échanges en cinq canaux avec VALID et READY pour insérer registres sans altérer le fonctionnement. Il supporte transferts en rafale et transactions multiples, avec réponses désordonnées pour optimiser la mémoire. AXI-Lite simplifie accès de configuration, AXI-Stream transfère flux de données sans adresse, tandis que AHB est conservé pour sous-systèmes peu exigeants.",
+  "seconds": 65.861
+ },
+ "9756fd3087ee0e5811e7": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé, qui utilise LSA pour diffuser des annonces de liens aux routeurs de la même zone, organisant le réseau en zones pour limiter les bases de données et les recalculs, élit DR et BDR pour réduire adjacences, et prend en charge l'authentification et IPv6.",
+  "seconds": 57.397
+ },
+ "16896873e6108447289c": {
+  "text": "OSPF est un protocole de routage état de liens standardisé, utilisant LSA pour diffuser annonces de liens, organisant en zones pour limiter bases de données et recalculs, élit DR et BDR pour réduire adjacences, et supporte l'authentification et IPv6.",
+  "seconds": 37.334
+ },
+ "77a585373712803be690": {
+  "text": "OSPF est un protocole de routage état de liens standardisé, utilisant LSA pour diffuser annonces de liens, organisant en zones pour limiter bases de données et recalculs, élit DR et BDR pour réduire adjacences, et supporte l'authentification et IPv6.",
+  "seconds": 35.748
+ },
+ "78d361bd2524426e65dd": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, qui utilise OSPF-LSA pour diffuser des annonces de liens et construit une base de données topologique. Les zones réduisent la taille des bases de données et le coût des recalculs. Les routeurs de bordure résument les routes vers d'autres zones. OSPF élit un DR et un BDR sur les réseaux multi-accès pour minimiser les adjacences. Le coût est basé sur la bande passante. OSPF est rapide à converger, gère l'authentification et IPv6.",
+  "seconds": 71.556
+ },
+ "21f38c32f864889db625": {
+  "text": "OSPF est un protocole de routage état de liens standardisé par l'IETF, utilisant OSPF-LSA pour diffuser des annonces de liens et construire une base de données topologique. Les zones réduisent la taille des bases de données et le coût des recalculs. Les routeurs de bordure résument les routes vers d'autres zones. OSPF élit un DR et un BDR pour minimiser les adjacences. Le coût est basé sur la bande passante. OSPF converge rapidement, gère l'authentification et IPv6.",
+  "seconds": 59.718
+ },
+ "9f7280d8bbcff11d35a6": {
+  "text": "OSPF est un protocole de routage état de liens standardisé par l'IETF, utilisant OSPF-LSA pour diffuser des annonces de liens et construire une base de données topologique. Les zones réduisent la taille des bases de données et le coût des recalculs. Les routeurs de bordure résument les routes vers d'autres zones. OSPF élit un DR et un BDR pour minimiser les adjacences. Le coût est basé sur la bande passante. OSPF converge rapidement, gère l'authentification et IPv6.",
+  "seconds": 55.057
+ },
+ "73a036538e221f16a71b": {
+  "text": "L'intégration continue intégre fréquemment les changements dans une branche, vérifiant automatiquement via CI/CD, bloquant les mises à jour erronées, organisant en étapes de tests statiques, unitaires, d'intégration et de bout en bout, corrigeant les tests instables en isolant et simulant, et exécutant une régression nocturne pour détecter les dégradations de performance.",
+  "seconds": 61.001
+ },
+ "b9dba2ba45ff7bb765f3": {
+  "text": "Intégration continue fréquente les changements, vérifie via CI/CD, organise tests en étapes, corrige tests instables, exécute régression nocturne pour détecter dégradations de performance.",
+  "seconds": 33.098
+ },
+ "f21eac374da1bf1e0c37": {
+  "text": "Intégration continue fréquente changements, tests via CI/CD, organise étapes tests, corrige instables, exécute régression nocturne détectant dégradations.",
+  "seconds": 24.361
+ },
+ "c87ba9f9af2cf41bad90": {
+  "text": "L'intégration continue intégre fréquemment les changements dans une branche commune, vérifiant automatiquement chaque code via des serveurs comme GitHub Actions. Les tests couvrent analyse statique, unitaires rapides, d'intégration et de bout en bout, avec les vérifications rapides en tête pour rapports rapides. Les tests instables sont corrigés en isolant les tests et en simulant les dépendances externes, tandis que la régression nocturne détecte les dégradations de performance.",
+  "seconds": 67.585
+ },
+ "db19febecbfab3b3bb6f": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur le modèle publication-abonnement via un broker central, avec trois niveaux de qualité de service, gestion des sujets hiérarchiques, option retain pour dernier message, mécanisme de dernière volonté, et fonctionnement sur TCP/1883 ou TLS/8883.",
+  "seconds": 54.359
+ },
+ "5d1d6d86884cd99d455c": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés basé sur le modèle publication-abonnement via broker central, avec trois niveaux de qualité de service, gestion des sujets hiérarchiques, option retain, mécanisme de dernière volonté, et fonctionnement sur TCP/1883 ou TLS/8883.",
+  "seconds": 37.888
+ },
+ "3cebcb6b5f865839c632": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés basé sur le modèle publication-abonnement via broker central, avec trois niveaux de qualité de service, gestion des sujets hiérarchiques, option retain, mécanisme de dernière volonté, et fonctionnement sur TCP/1883 ou TLS/8883.",
+  "seconds": 35.409
+ },
+ "438603b7be35a7c02435": {
+  "text": "MQTT est un protocole de messagerie léger pour objets connectés, basé sur le modèle publication-abonnement via un broker central. Les sujets hiérarchiques permettent des communications flexibles. MQTT définit trois niveaux de qualité de service, avec options de gestion de l'option retain et de dernière volonté pour maintenir la connectivité. Le protocole fonctionne sur TCP/1883 ou TLS/8883.",
+  "seconds": 58.426
+ },
+ "170d22ae1192a046a7ea": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant et intégrant les passages pertinents dans les prompts pour améliorer les réponses, souvent combinant recherche sémantique et par mots-clés. Sa qualité dépend de la pertinence des passages récupérés, nécessitant des évaluations séparées de la fidélité des réponses. Les réglages clés incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 63.422
+ },
+ "eb7aabcb5422112d040b": {
+  "text": "RAG combine un modèle de langage avec une base de connaissances, recherchant et intégrant les passages pertinents dans les prompts pour améliorer les réponses, souvent combinant recherche sémantique et par mots-clés. Sa qualité dépend de la pertinence des passages récupérés, nécessitant évaluations séparées de la fidélité des réponses. Les réglages clés incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 49.876
+ },
+ "e9ff6b50712da0b449e3": {
+  "text": "RAG combine un modèle de langage avec une base de connaissances, recherchant et intégrant les passages pertinents dans les prompts pour améliorer les réponses, souvent combinant recherche sémantique et par mots-clés. Sa qualité dépend de la pertinence des passages récupérés, nécessitant évaluations séparées de la fidélité des réponses. Les réglages clés incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 46.512
+ },
+ "0ed61af402b47eb8b19a": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant d'abord les passages pertinents dans des documents découpés en fragments numériquement, puis les intégrant dans le prompt. Les fragments sont récupérés par recherche sémantique et par mots-clés. Le RAG réduit les hallucinations, permet de mettre à jour les connaissances sans réentraîner le modèle, et facilite la citation des sources. Cependant, sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée pour la fiabilité des réponses. Les principaux réglages incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 74.911
+ },
+ "924e32873582b60a6802": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant d'abord les passages pertinents dans des documents découpés en fragments numériquement, puis les intégrant dans le prompt. Les fragments sont récupérés par recherche sémantique et par mots-clés. Le RAG réduit les hallucinations, permet de mettre à jour les connaissances sans réentraîner le modèle, et facilite la citation des sources. Cependant, sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée pour la fiabilité des réponses. Les principaux réglages incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 71.338
+ },
+ "e0680a31250bd425f838": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant d'abord les passages pertinents dans des documents découpés en fragments numériquement, puis les intégrant dans le prompt. Les fragments sont récupérés par recherche sémantique et par mots-clés. Réduit les hallucinations, permet de mettre à jour les connaissances sans réentraîner le modèle, et facilite la citation des sources. Cependant, sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant une évaluation séparée pour la fiabilité des réponses. Les principaux réglages incluent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 46.756
+ },
+ "6bb1350886d1cbb7a9d9": {
+  "text": "Les réseaux sur puce (NoC) supplantent les bus partagés, facilitant la communication simultanée entre de nombreux processeurs et contrôleurs. Le choix de topologie dépend du produit, avec le maillage offrant une régularité, l'anneau une surface minimale et le crossbar une latence minimale. Les NoC modernes intègrent des mécanismes de qualité de service, des priorités et des canaux virtuels pour garantir des transferts rapides. La configuration est automatisée et vérifiée, réduisant ainsi le temps de conception.",
+  "seconds": 72.639
+ },
+ "be6dfffe4432c36a1fcb": {
+  "text": "Les NoC remplacent les bus partagés, offrant communication simultanée entre de nombreux processeurs via topologies adaptées (maillage, anneau, crossbar), intégrant qualité de service et automatisant la configuration.",
+  "seconds": 33.964
+ },
+ "8229596d4b931629ca71": {
+  "text": "Les réseaux sur puce (NoC) supplantent les bus partagés dans les systèmes sur puce complexes. Ils permettent des communications en parallèle grâce à un ensemble de routeurs et de liens. Les topologies adaptées, comme le maillage, l'anneau et le crossbar, offrent des performances variées. Les NoC modernes incluent des mécanismes de qualité de service, comme les priorités et les canaux virtuels, pour garantir la latence. Ils sont configurés automatiquement et vérifiés par simulation, réduisant ainsi le temps de conception.",
+  "seconds": 72.44
+ },
+ "e130c41b11cfbfac4795": {
+  "text": "Les réseaux sur puce (NoC) remplaçant les bus partagés, permettent des communications en parallèle grâce à des routeurs et des liens. Topologies adaptées (maillage, anneau, crossbar) offrent des performances variées. Modernes, ils incluent des mécanismes de qualité de service (priorités, canaux virtuels) pour garantir la latence. Configurés automatiquement et vérifiés par simulation, réduisant le temps de conception.",
+  "seconds": 48.495
+ },
+ "9b6ec1ccc06bfd74e8bc": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux, utilisant VALID et READY pour synchronisation, supportant transferts en rafale et transactions multiples, avec variante simplifiée pour accès de configuration.",
+  "seconds": 50.082
+ },
+ "5973df9673b37ea4dde2": {
+  "text": "AXI est un protocole de communication Arm qui sépare les échanges en cinq canaux indépendants : adresse d'écriture, données d'écriture, réponse d'écriture, adresse de lecture et données de lecture. Il utilise des signaux VALID et READY pour synchroniser les échanges et insère des registres de pipeline sans altérer le comportement fonctionnel. AXI supporte les transferts en rafale et les transactions multiples, avec des réponses possibles dans le désordre. La variante AXI-Lite est utilisée pour les accès de configuration, tandis que AXI-Stream gère des flux de données sans adresse.",
+  "seconds": 72.478
+ },
+ "3618c5ec34e9c814fcfa": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux (adresse, données, réponse, lecture, données), utilisant signaux VALID/READY pour synchronisation, insérant registres de pipeline, supportant transferts en rafale et transactions multiples, avec réponses dans le désordre. Variante AXI-Lite pour accès de configuration, AXI-Stream pour flux de données sans adresse.",
+  "seconds": 45.02
+ },
+ "bbf048c912d6025cc236": {
+  "text": "AXI est un protocole Arm séparant échanges en cinq canaux (adresse, données, réponse, lecture, données), utilisant signaux VALID/READY pour synchronisation, supportant transferts en rafale et transactions multiples, avec réponses dans le désordre. Variante AXI-Lite pour accès de configuration, AXI-Stream pour flux de données sans adresse.",
+  "seconds": 36.605
+ },
+ "f0b63a9fcebfbc9d3226": {
+  "text": "OSPF est un protocole de routage interne basé sur l'état de liens, standardisé par l'IETF, divisant le réseau en zones pour réduire la taille des bases de données et les recalculs, avec une convergence rapide (quelques secondes) et support de IPv6.",
+  "seconds": 46.984
+ },
+ "614ed34bb42ab6e69995": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, divisant le réseau en zones pour réduire la taille des bases de données et les recalculs, avec convergence rapide (quelques secondes) et support de IPv6.",
+  "seconds": 30.196
+ },
+ "bb9d8ab058057d2cf65e": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, divisant le réseau en zones pour réduire la taille des bases de données et les recalculs, avec convergence rapide (quelques secondes) et support de IPv6.",
+  "seconds": 28.795
+ },
+ "2835da1c1c24b94fa193": {
+  "text": "OSPF est un protocole de routage interne à état de liens, standardisé par l'IETF, qui utilise des annonces LSA pour diffuser la topologie du réseau. Les routeurs calculent les meilleurs chemins avec l'algorithme de Dijkstra. OSPF organise le réseau en zones, avec la zone 0 comme backbone, et les routeurs de bordure résument les routes. Pour réduire la taille des bases de données et les recalculs, OSPF élit un DR et un BDR sur les réseaux multi-accès. Le coût d'une interface est généralement basé sur sa bande passante de référence, ce qui favorise les liens rapides. OSPF converge rapidement, généralement en quelques secondes, et prend en charge l'authentification et IPv6.",
+  "seconds": 79.757
+ },
+ "370ad7644400c85aa45c": {
+  "text": "OSPF est un protocole de routage interne à état de liens standardisé par l'IETF, utilisant LSA pour diffuser la topologie. Il organise le réseau en zones avec la zone 0 comme backbone, et routeurs de bordure résumant les routes. OSPF élit DR et BDR pour réduire la taille des bases de données et les recalculs, calculant le coût d'une interface à partir de sa bande passante de référence. Convergence rapide (quelques secondes), support de l'authentification et IPv6.",
+  "seconds": 55.752
+ },
+ "fd47609fbcc36e9f9192": {
+  "text": "OSPF est un protocole de routage interne à état de liens standardisé par l'IETF, utilisant LSA pour diffuser la topologie. Il organise le réseau en zones avec la zone 0 comme backbone, routeurs de bordure résumant les routes, élit DR et BDR pour réduire la taille des bases de données et les recalculs, calculant le coût d'une interface à partir de sa bande passante de référence. Convergence rapide (quelques secondes), support de l'authentification et IPv6.",
+  "seconds": 48.204
+ },
+ "e01fbe450d4ec14d0b34": {
+  "text": "L'intégration continue automatisée vérifie rapidement les codes, détecte les erreurs et corrige les tests instables pour éviter les régressions, grâce à une chaîne de tests structurée et aux corrections de dépendances externes.",
+  "seconds": 51.267
+ },
+ "3927f1fcef6f74b12a38": {
+  "text": "L'intégration continue permet d'intégrer fréquemment les changements dans une branche commune, vérifiés automatiquement par des serveurs comme GitHub Actions. Une chaîne de tests est organisée en étapes successives : analyse statique, tests unitaires rapides, tests d'intégration, et tests de bout en bout. Les tests instables sont corrigés en remplaçant les pauses par des attentes et en simulant les services externes. La régression nocturne surveille les changements de performance.",
+  "seconds": 65.911
+ },
+ "113b77a0f148311a1b74": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur le modèle publication-abonnement, avec des sujets hiérarchiques, trois niveaux de qualité de service, et un broker central pour gérer les abonnements et messages, tout cela sur le port 1883 ou 8883.",
+  "seconds": 47.29
+ },
+ "f8ea634e7ee4f9133717": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés basé sur le modèle publication-abonnement, hiérarchique, avec trois niveaux de qualité de service, broker central et fonctionnant sur ports 1883/TLS.",
+  "seconds": 29.104
+ },
+ "a1c058267bab4d41d7b2": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés, basé sur le modèle publication-abonnement. Les sujets hiérarchiques peuvent contenir des caractères génériques. MQTT définit trois niveaux de qualité de service : 0 (une seule fois), 1 (au moins une fois) et 2 (exactement une fois). Le broker conserve les derniers messages via l'option retain et permet aux clients de s'informer lors de la déconnexion brutale d'un appareil. Le protocole fonctionne sur TCP au port 1883 ou 8883 avec TLS pour la connexion sécurisée.",
+  "seconds": 62.991
+ },
+ "7119c24905dc19cd3238": {
+  "text": "MQTT est un protocole de messagerie léger pour objets connectés, basé sur le modèle publication-abonnement. Les sujets hiérarchiques acceptent des caractères génériques. MQTT définit trois niveaux de qualité de service : 0 (une seule fois), 1 (au moins une fois) et 2 (exactement une fois). Le broker conserve les derniers messages via l'option retain et permet aux clients de s'informer lors de la déconnexion brutale d'un appareil. Le protocole fonctionne sur TCP au port 1883 ou 8883 avec TLS sécurisé.",
+  "seconds": 61.805
+ },
+ "1c87149a70cac18f3225": {
+  "text": "MQTT est un protocole de messagerie léger pour objets connectés, basé sur le modèle publication-abonnement. Les sujets hiérarchiques acceptent des caractères génériques. MQTT définit trois niveaux de qualité de service : 0 (une seule fois), 1 (au moins une fois) et 2 (exactement une fois). Le broker conserve les derniers messages via l'option retain et permet aux clients de s'informer lors de la déconnexion brutale d'un appareil. Le protocole fonctionne sur TCP au port 1883 ou 8883 avec TLS sécurisé.",
+  "seconds": 43.364
+ },
+ "e0c36a029061b2749590": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, découpant les documents en fragments numérisés et utilisant des index vectoriels pour rechercher les passages pertinents, ce qui réduit les hallucinations et facilite la citation des sources, mais nécessite une recherche efficace des bons passages pour une réponse précise.",
+  "seconds": 45.424
+ },
+ "faa7ffac072f354c51ae": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, découpant les documents en fragments numérisés et utilisant des index vectoriels pour rechercher les passages pertinents, réduisant les hallucinations et facilitant la citation des sources, mais nécessite une recherche efficace des bons passages pour une réponse précise.",
+  "seconds": 30.178
+ },
+ "e1cd060923483abe0359": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances, découpant les documents en fragments numérisés et utilisant index vectoriels pour rechercher les passages pertinents, réduisant les hallucinations et facilitant la citation des sources, mais nécessite une recherche efficace des bons passages pour une réponse précise.",
+  "seconds": 28.391
+ },
+ "f7bd04d36a9993c05bf6": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, où les documents sont découpés en fragments numérisés et indexés. Cette méthode permet de réduire les hallucinations et de mettre à jour les connaissances sans réentraîner le modèle, tout en facilitant la citation des sources. Cependant, la qualité du RAG dépend fortement de la pertinence des passages récupérés, qui doit être évaluée séparément de la fidélité de la réponse. Les principaux réglages concernent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 64.862
+ },
+ "6a392c7b0dd14f3dc159": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, où les documents sont découpés en fragments numérisés et indexés. Cette méthode réduit les hallucinations, facilite la citation des sources et permet de mettre à jour les connaissances sans réentraîner le modèle. Cependant, la qualité du RAG dépend fortement de la pertinence des passages récupérés, qui doit être évaluée séparément de la fidélité de la réponse. Les principaux réglages concernent la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 59.07
+ },
+ "17b587bbd5c116059a13": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe. Les documents sont découpés en fragments numérisés et indexés, réduisant les hallucinations et facilitant la citation. La qualité dépend de la pertinence des passages récupérés, évaluée séparément de la fidélité de la réponse. Les principaux réglages portent sur la taille des fragments, le nombre de passages injectés et la formulation des consignes.",
+  "seconds": 52.481
+ },
+ "8dd5bd445f4861a53e7d": {
+  "text": "Réseaux sur puce (NoC) remplacent bus partagés : flexibles, parallèles, adaptés aux topologies maillage, anneau, crossbar. Ils offrent qualité de service, priorités, canaux virtuels, régulation débit. Configurés automatiquement, vérifiés, réduisent temps conception.",
+  "seconds": 71.488
+ },
+ "3b5c3b779715a4607a88": {
+  "text": "Les réseaux sur puce (NoC) remplacent les bus partagés dans les systèmes complexes. Ils permettent de multiples communications en parallèle grâce à des routeurs et des paquets. Les topologies comme le maillage, l'anneau et le crossbar sont choisies selon le produit. La qualité de service est garantie par des priorités et des mécanismes de régulation. Les NoC modernes sont configurés automatiquement et vérifiés avant la fabrication, réduisant ainsi le temps de conception.",
+  "seconds": 72.677
+ },
+ "7c346817c9183dba50dc": {
+  "text": "Les réseaux sur puce (NoC) remplaçent les bus partagés dans les systèmes complexes. Ils permettent de multiples communications en parallèle grâce à des routeurs et des paquets. Les topologies comme le maillage, l'anneau et le crossbar sont choisies selon le produit. La qualité de service est garantie par des priorités et des mécanismes de régulation. Les NoC modernes sont configurés automatiquement et vérifiés avant la fabrication, réduisant ainsi le temps de conception.",
+  "seconds": 57.847
+ },
+ "2b9f4a79ccfddcd4752e": {
+  "text": "Les réseaux sur puce (NoC) remplaçent les bus partagés dans les systèmes complexes. Ils permettent de multiples communications en parallèle grâce à des routeurs et des paquets. Les topologies comme le maillage, l'anneau et le crossbar sont choisies selon le produit. La qualité de service est garantie par des priorités et des mécanismes de régulation. Les NoC modernes sont configurés automatiquement et vérifiés avant la fabrication, réduisant ainsi le temps de conception.",
+  "seconds": 52.414
+ },
+ "b2a7cde6416def379c8f": {
+  "text": "AXI est un protocole Arm pour connecter processeurs et périphériques, séparant échanges en cinq canaux avec VALID/READY, supportant transferts en rafale et transactions multiples, et variante AXI-Lite pour accès de configuration.",
+  "seconds": 53.37
+ },
+ "5ea3c56790a0eecb435d": {
+  "text": "AXI est un protocole Arm pour connecter processeurs, mémoires et périphériques. Il sépare échanges en cinq canaux avec VALID et READY. AXI supporte transferts en rafale et transactions multiples, avec réponses désordonnées. AXI-Lite simplifie accès à faible débit, AXI-Stream transmet flux de données sans adresse. AHB, plus ancien, reste pour systèmes peu exigeants.",
+  "seconds": 63.949
+ },
+ "666e20604ec58f3d400e": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé, qui utilise LSA pour diffuser la topologie et calcule les chemins avec Dijkstra, organisant le réseau en zones pour réduire la taille des bases de données et le coût des recalculs.",
+  "seconds": 53.981
+ },
+ "0a1a50f165c415aaa364": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé, utilisant LSA pour diffuser la topologie et calculer les chemins avec Dijkstra, organisant le réseau en zones pour réduire la taille des bases de données et le coût des recalculs.",
+  "seconds": 35.408
+ },
+ "f366be4fb172ea48a1e9": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé, utilisant LSA pour diffuser la topologie et calculer les chemins avec Dijkstra, organisant le réseau en zones pour réduire la taille des bases de données et le coût des recalculs.",
+  "seconds": 34.157
+ },
+ "4c4d74398fdd15537805": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, utilisé dans les réseaux d'entreprise. Il utilise des annonces LSA pour diffuser les liens et leur coût, construisant ainsi une base de données identique. OSPF organise le réseau en zones, avec la zone 0 comme backbone, et utilise des routeurs de bordure pour résumer les routes. Pour réduire la taille des bases de données et les recalculs, OSPF élit un DR et un BDR sur les réseaux multi-accès. Le protocole prend en charge l'authentification et IPv6. Sa convergence est rapide, généralement quelques secondes.",
+  "seconds": 78.73
+ },
+ "e5fbe5833c16df689fe3": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, utilisé dans les réseaux d'entreprise. Il utilise des annonces LSA pour diffuser les liens et leur coût, construisant ainsi une base de données identique. OSPF organise le réseau en zones, avec la zone 0 comme backbone, et utilise des routeurs de bordure pour résumer les routes. Pour réduire la taille des bases de données et les recalculs, OSPF élit un DR et un BDR sur les réseaux multi-accès. Le protocole prend en charge l'authentification et IPv6. Sa convergence est rapide, généralement quelques secondes.",
+  "seconds": 71.471
+ },
+ "aa6d8895600952745999": {
+  "text": "OSPF est un protocole de routage interne état de liens, standardisé par l'IETF, utilisé dans les réseaux d'entreprise. Il utilise des annonces LSA pour diffuser les liens et leur coût, construisant ainsi une base de données identique. OSPF organise le réseau en zones, avec la zone 0 comme backbone, et utilise des routeurs de bordure pour résumer les routes. Pour réduire la taille des bases de données et les recalculs, OSPF élit un DR et un BDR sur les réseaux multi-accès. Le protocole prend en charge l'authentification et IPv6. Sa convergence est rapide, généralement quelques secondes.",
+  "seconds": 47.237
+ },
+ "debf2a3ee5740bff7018": {
+  "text": "L'intégration continue automatique vérifie chaque changement, détecte les erreurs et corrige les tests instables pour éviter les régressions, grâce à une chaîne de tests structurée et aux analyses préliminaires rapides.",
+  "seconds": 51.887
+ },
+ "c06d7b941e8dcba9a6d1": {
+  "text": "L'intégration continue consiste à intégrer fréquemment les changements dans une branche commune, vérifiant automatiquement chaque code. Les tests sont organisés en étapes : analyse statique, tests unitaires, tests d'intégration, et tests de bout en bout. Les erreurs instables doivent être corrigées en isolant les tests et en simulant les services externes. La régression nocturne surveille les dégradations de performance.",
+  "seconds": 64.927
+ },
+ "c4ac73ccfe6bd0eb047c": {
+  "text": "MQTT est un protocole léger pour objets connectés, basé sur publication-abonnement via broker, avec hiérarchiques sujets, trois niveaux QoS, retain, dernier volonté, TCP/1883/TLS.",
+  "seconds": 50.273
+ },
+ "6f573c064a906a653f4d": {
+  "text": "MQTT est un protocole léger pour objets connectés via broker, publication-abonnement, hiérarchiques sujets, trois niveaux QoS, retain, dernier volonté, TCP/1883/TLS.",
+  "seconds": 30.711
+ },
+ "e142e7fc5b2eccb4e596": {
+  "text": "MQTT est un protocole léger pour objets connectés via broker, publication-abonnement, hiérarchiques sujets, trois niveaux QoS, retain, dernier volonté, TCP/1883/TLS.",
+  "seconds": 29.147
+ },
+ "540315464a40fb1965ce": {
+  "text": "MQTT est un protocole de messagerie pour objets connectés léger, basé sur le modèle publication-abonnement via un broker central. Les sujets hiérarchiques permettent des communications flexibles. MQTT définit trois niveaux de qualité de service, avec options de gestion de la connaissance et de dernière volonté pour des communications fiables. Le protocole fonctionne sur TCP au port 1883 ou 8883 sécurisé avec TLS.",
+  "seconds": 64.739
+ },
+ "b169b826a9a42b6a87f5": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant et intégrant les meilleurs passages pour fournir des réponses plus précises, allégerant ainsi la charge de réentraînement du modèle.",
+  "seconds": 52.646
+ },
+ "34a0e7a689790c921161": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant et intégrant les meilleurs passages pour fournir des réponses plus précises, alléger ainsi la charge de réentraînement du modèle.",
+  "seconds": 34.812
+ },
+ "5196b2e006ccaa811b6d": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec une base de connaissances externe, recherchant et intégrant les meilleurs passages pour fournir des réponses plus précises, alléger ainsi la charge de réentraînement du modèle.",
+  "seconds": 26.843
+ },
+ "229c5586e7233b70cb5e": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec des connaissances externes. Les documents sont découpés en fragments numérisés, puis recherchés sémantiquement pour fournir des réponses basées sur des sources. La RAG réduit les erreurs, permet de mettre à jour les connaissances sans réentraîner le modèle, et facilite la citation. Cependant, sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant des évaluations séparées pour la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages et la formulation des consignes.",
+  "seconds": 78.424
+ },
+ "5e1ef73233a86874bc9c": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec des connaissances externes. Les documents sont découpés en fragments numérisés, recherchés sémantiquement pour fournir des réponses basées sur des sources. La RAG réduit les erreurs, permet de mettre à jour les connaissances sans réentraîner le modèle, et facilite la citation. Cependant, sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant des évaluations séparées pour la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages et la formulation des consignes.",
+  "seconds": 70.632
+ },
+ "46c29c5551e9d4f77020": {
+  "text": "La génération augmentée par récupération (RAG) combine un modèle de langage avec des connaissances externes. Les documents sont découpés en fragments numérisés, recherchés sémantiquement pour fournir des réponses basées sur des sources. La RAG réduit les erreurs, permet de mettre à jour les connaissances sans réentraîner le modèle, et facilite la citation. Cependant, sa qualité dépend fortement de la pertinence des passages récupérés, nécessitant des évaluations séparées pour la fiabilité des réponses. Les réglages importants incluent la taille des fragments, le nombre de passages et la formulation des consignes.",
+  "seconds": 69.347
+ }
+}
